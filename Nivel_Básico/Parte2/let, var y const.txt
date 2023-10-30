@@ -1,0 +1,7 @@
+Diferencia entre let, var y const en JavaScript:
+
+Let: Permite declarar variables, limitando el alcance de la declaración o bloque donde se está declarando.
+Var: Se utiliza para declarar una variable global o local, y el alcance no se ve limitado sin importar donde se haya declarado.
+Const: Se utiliza para crear una constante y debe ser inicializada al momento de declararla, el alcance de esta está limitado al bloque donde se declara.
+
+La diferencia entre estos 3 terminos en JavaScript, es que "Let" se utiliza para definir variables y que solo pueden ser utilizadas en el bloque donde se declara, "Var" se utiliza para definir variables igualmente, pero su alcance no se ve limitado por el bloque donde se declara, y "const" se utiliza para crear constantes, su alcance depende del bloque donde se declara y debe ser inicializada cuando se define.

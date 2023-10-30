@@ -1,0 +1,4 @@
+En PHP, una excepción es un evento o un error que surge durante la ejecución del programa.
+ 
+
+

@@ -1,0 +1,3 @@
+Consulta para encontrar el cliente que ha realizado más pedidos en una tabla llamada "clientes" y una tabla llamada "pedidos". Las tablas tienen las columnas "id_cliente" y "id_pedido":
+
+SELECT id_cliente, COUNT(id_pedido) AS total_pedidos FROM clientes JOIN pedidos ON id_cliente = id_cliente GROUP BY id_cliente ORDER BY total_pedidos DESC LIMIT 1;

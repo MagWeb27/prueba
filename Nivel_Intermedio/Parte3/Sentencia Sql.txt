@@ -1,0 +1,3 @@
+Consulta para contar cuantos pedidos ha realizado cada cliente en una tabla llamada pedidos, la cual contiene las columnas "id_pedido" y "id_cliente":
+
+SELECT id_cliente, COUNT(id_pedido) AS cantidad_pedidos FROM pedidos GROUP BY id_cliente;

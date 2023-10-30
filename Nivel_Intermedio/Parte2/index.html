@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../Nivel_Intermedio/Parte2/styles.css" />
+    <title>Parte 2</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-form">
+        <form id="loginForm" onsubmit="return validarFormulario()">
+          <label for="username" class="label-user">Nombre de usuario:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="&nbsp; Ingrese el usuario..."
+          />
+
+          <label for="password" class="label-password">Contraseña:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="&nbsp; Ingrese la contraseña..."
+          />
+
+          <button type="submit" class="button">Iniciar Sesión</button>
+        </form>
+      </div>
+    </div>
+    <script src="../../Nivel_Intermedio/Parte2/script.js"></script>
+  </body>
+</html>

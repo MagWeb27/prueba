@@ -1,0 +1,9 @@
+la principal diferencia entre INNER JOIN y LEFT JOIN radica en el conjunto de resultados que devuelven. INNER JOIN devuelve solo las filas que tienen coincidencias en ambas tablas, mientras que LEFT JOIN devuelve todas las filas de la tabla izquierda y las coincidentes de la tabla derecha, llenando con NULL en las columnas de la tabla derecha cuando no hay coincidencias.
+
+Ejemplo de INNER JOIN:
+
+SELECT * FROM tabla1 INNER JOIN tabla2 ON tabla1.columna = tabla2.columna;
+
+Ejemplo de LEFT JOIN: 
+
+SELECT * FROM tabla1 LEFT JOIN tabla2 ON tabla1.columna = tabla2.columna;
